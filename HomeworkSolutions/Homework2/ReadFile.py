@@ -1,5 +1,6 @@
-
-#!/usr/bin/python
+# Homework 2 
+# Jan 23 2018
+# G Besla
 
 
 # Load modules
@@ -8,6 +9,9 @@ import astropy.units as u
 
 
 # Define a function that reads in the data file
+# Input:  filename, e.g. "MW_000.txt"
+# Returns:  time (in Myr), total number of particles 
+#           and an array with data 
 # USAGE :   time, total, data = Read("filename")
 def Read(filename):
 
